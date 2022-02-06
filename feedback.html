@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="feedback.css">
+	<link rel="stylesheet" href="ss.css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<a href="index.html" class="logo"><img src="logo.png" width="10px" height="70px" alt=""></a>
+			<ul id="navigation">
+				<li class="#">
+					<a href="index.html">Home</a>
+				</li>
+				<li class="menu">
+					<a href="about.html">About</a>
+					
+				</li>
+				<li class="menu">
+					<a href="login.html">Login</a>
+					<ul class="secondary">
+						<li>
+							<a href="signup.html">Sign Up</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu selected">
+					<a href="feedback.html">Feedback</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="testbox">
+		<form action="/">
+		  <center><h1>Customer Feedback Form</h1>
+		  <p>Please help us improve our Gym services by filling in our feedback form. Thank you!</p></center>
+		  <h4>Name</h4>
+		  <div class="name">
+			<input type="text" name="name" placeholder="First" />
+			<input type="text" name="name" placeholder="Last" />
+		  </div>
+		  <h4>Email</h4>
+		  <input type="text" name="name" />
+		  
+		  <h4>Day Visited<span>*</span></h4>
+		  <div class="day-visited">
+			<input type="date" name="dayvisited" required/>
+			<i class="fas fa-calendar-alt"></i>
+		  </div>
+		  <h4>Time Visited<span>*</span></h4>
+   <div class="time-visited">
+			<input type="time" name="timevisited" required/>
+			<i class="fas fa-clock"></i>
+		  </div>
+		  <h4>Take In / Take Out</h4>
+		  <div class="question-answer">
+			<label><input type="radio" value="none" name="Dine" /> Take In</label>
+			<label><input type="radio" value="none" name="Dine" /> Take Out</label>
+		  </div>
+		  <h4>Age<span>*</span></h4>
+		  <select>
+			<option class="disabled" value="location" disabled selected>*Please Select*</option>
+			<option value="under 13">Under 13</option>
+			<option value="13-17">13-17</option>
+			<option value="18-24">18-24</option>
+			<option value="25-34">25-34</option>
+			<option value="35-44">35-44</option>
+			<option value="45-54">45-54</option>
+			<option value="55 or older">55 or older</option>
+		  </select>
+		  <h4></h4>
+		  <table>
+			<tr>
+			  <th class="first-col"></th>
+			  <th>Amazing</th>
+			  <th>Good</th>
+			  <th>Decent</th>
+			  <th>Disappointing</th>
+			</tr>
+			<tr>
+			  <td class="first-col">Materials Quality</td>
+			  <td><input type="radio" value="none" name="Food" /></td>
+			  <td><input type="radio" value="none" name="Food" /></td>
+			  <td><input type="radio" value="none" name="Food" /></td>
+			  <td><input type="radio" value="none" name="Food" /></td>
+			</tr>
+			<tr>
+			  <td class="first-col">Overall Service Quality</td>
+			  <td><input type="radio" value="none" name="Service" /></td>
+			  <td><input type="radio" value="none" name="Service" /></td>
+			  <td><input type="radio" value="none" name="Service" /></td>
+			  <td><input type="radio" value="none" name="Service" /></td>
+			</tr>
+			<tr>
+			  <td class="first-col">Speed of machines</td>
+			  <td><input type="radio" value="none" name="Speed" /></td>
+			  <td><input type="radio" value="none" name="Speed" /></td>
+			  <td><input type="radio" value="none" name="Speed" /></td>
+			  <td><input type="radio" value="none" name="Speed" /></td>
+			</tr>
+			<tr>
+			  <td class="first-col">Steem</td>
+			  <td><input type="radio" value="none" name="Price" /></td>
+			  <td><input type="radio" value="none" name="Price" /></td>
+			  <td><input type="radio" value="none" name="Price" /></td>
+			  <td><input type="radio" value="none" name="Price" /></td>
+			</tr>
+			<tr>
+			  <td class="first-col">Overall Experience</td>
+			  <td><input type="radio" value="none" name="Experience" /></td>
+			  <td><input type="radio" value="none" name="Experience" /></td>
+			  <td><input type="radio" value="none" name="Experience" /></td>
+			  <td><input type="radio" value="none" name="Experience" /></td>
+			</tr>
+		  </table>
+		  <h4>Any comments, questions or suggestions?</h4>
+		  <textarea rows="5"></textarea>
+		  <div class="btn-block">
+			<button type="submit" href="index.html">Send Feedback</button>
+		  </div>
+		</form>
+	  </div>
+</div>
+</body>
+</html>
